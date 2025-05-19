@@ -2,7 +2,9 @@
 
 **Good Care+** is a simple and responsive health and wellness web application designed to promote a healthier lifestyle. It offers workout tips, a blood pressure calculator, and a BMI calculator — all in one clean and elegant interface.
 
-![Screenshot]
+## 🚀 Demo
+
+👉 [Live Demo on GitHub Pages](https://yuvraj1129.github.io/good-care-plus/)
 
 ---
 
@@ -28,11 +30,11 @@
 
 ## 📸 Screenshots
 
-> <img src="images/Screenshot1.png" width="100" />
-> <img src="images/Screenshot2.png" width="100" />
-> <img src="images/Screenshot3.png" width="100" />
-> <img src="images/Screenshot4.png" width="100" />
-> <img src="images/Screenshot5.png" width="100" />
+> <img src="img/Screenshot1.png" width="100" />
+> <img src="img/Screenshot2.png" width="100" />
+> <img src="img/Screenshot3.png" width="100" />
+> <img src="img/Screenshot4.png" width="100" />
+> <img src="img/Screenshot5.png" width="100" />
 
 ---
 

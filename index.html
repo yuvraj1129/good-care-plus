@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
+    <meta name="description" content="Good Care+ is a health and wellness platform offering workout tips and a blood pressure calculator.">
+
+    <title>Good Care+</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+
+  <body>
+    <header class="h">
+      <h1>Good Care +</h1>
+    </header>
+    <nav class="navigation">
+      <a href="#A"> About us </a>
+      <a href="#loota">Check Blood pressure</a>
+      <a href="#blog"> Workout </a>
+     
+      <a href="#"> Home</a>
+    </nav>
+
+    <div class="container"></div>
+    <div class="bottom-left">
+      <p>
+        We work for good care <br />
+        We are Good Care+
+      </p>
+    </div>
+    <main>
+      <section class="first">
+        <h1>Good Words</h1>
+        <p>
+          <b> “Health is a state of complete ,<br> social and physical well-being, <br> merely the absence of disease or infirmity.”</b> <br>– World Health Organization, 1948
+        </p>
+      </section>
+  
+          
+       
+     
+     
+      <section id="blog">
+        <div class="blog-heading">
+          <h1 class="hbp">Workouts</h1>
+        </div>
+        <!----blog container-->
+        <div class="blog-container">
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="img/walking.jpg " alt="blog" />
+            </div>
+            <!---text-->
+            <div class="blog-text">
+              <span>Walking </span>
+              
+
+              <a href="blogs/blog1.html" target="_blank" class="blog-title"
+                >Regular walking is a good habit</a
+              >
+              <p>
+                Walking is a great way to improve or maintain your overall health. Just 30 minutes every day can increase cardiovascular fitness, strengthen bones, reduce excess body fat, and boost muscle power and endurance. It can also reduce your risk of developing conditions such as heart disease, type 2 diabetes, osteoporosis and some cancers.
+              </p>
+              <a href="blogs/blog1.html" target="_blank">Read More</a>
+            </div>
+          </div>
+          <!---blog2-->
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="img/squats.jpg " alt="blog" />
+            </div>
+            <!---text-->
+            <div class="blog-text">
+              <span>Squats</span>
+              <a href="blogs/blog2.html" target="_blank" class="blog-title"
+                >Come on! one more squat</a
+              >
+              <p>
+                A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. Squats are considered a vital exercise for<strong> increasing the strength and size of the lower body muscles</strong> as well as developing core strength.
+              </p>
+              <a href="blogs/blog2.html" target="_blank">Read More</a>
+            </div>
+          </div>
+          <!---blog3-->
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="img/pushups.jpg " alt="blog" />
+            </div>
+            <!---text-->
+            <div class="blog-text">
+              <span>Push-ups</span>
+              <a href="blogs/blog3.html" target="_blank" class="blog-title"
+                >Start with 10 push-ups,and increase</a
+              >
+              <p>
+                Pushups are beneficial for building upper body strength. They<strong> work the triceps, pectoral muscles, and shoulders</strong>. When done with proper form, they can also strengthen the lower back and core by engaging (pulling in) the abdominal muscles.
+              </p>
+              <a href="blogs/blog3.html" target="_blank">Read More</a>
+            </div>
+            
+            
+          </div>
+       
+      </section>
+
+
+      <section >
+        <div id="loota">
+
+
+
+        <h1 class="hbp">Blood Pressure calculator </h1>
+       <div class="bg-img2">
+ 
+<div class="glass" >
+         <form name="myform">
+         
+          <div class="form-row">
+            <div class="input-data">
+              <label for="systolic blood pressure"></label>
+              
+              <input type="text" name="systolic" id="systolic blood pressure" placeholder="Systolic blood pressure"/>
+            </div>
+  
+            <div class="input-data">
+              <label for="diastolic blood pressure"></label>
+              <input type="text" name="diastolic" id="diastolic blood pressure" placeholder="Diastolic blood pressure"/>
+            </div>
+          
+          </div>
+
+            <div class="rrr">
+            <input class="btn" type="button" onclick="bloodpressure(myform);"
+            value="Check Blood Pressure" />
+          </div> 
+
+        
+        
+    
+          <div class="a4"><h1>blood pressure is:</h1>  </div>
+        
+      
+
+        <div class="rst"><b id="result"><h2>Normal!</h2></b> </div>
+        
+    
+      
+        </form>
+      </div>
+        </div>
+       </div>
+   </section>
+   <section id="bmi">
+  <div class="bmi-container">
+    <h1 class="hbp">BMI Calculator</h1>
+    <div class="glass">
+      <form name="bmiform">
+        <div class="form-row">
+          <div class="input-data">
+            <label for="height">Height (in cm)</label>
+            <input type="text" name="height" id="height" />
+          </div>
+          <div class="input-data">
+            <label for="weight">Weight (in kg)</label>
+            <input type="text" name="weight" id="weight" />
+          </div>
+        </div>
+       <div class="rrr">
+  <input class="btn" type="button" onclick="calculateBMI();" value="Calculate BMI" />
+</div>
+<div class="bmi-output">
+  <b id="bmiResult"><h2>Your BMI will appear here</h2></b>
+</div>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+      <section class="about" id="A">
+        <div class="about-container">
+          <div class="content-section">
+            <div class="about-title">
+              <h1>About us</h1>
+            </div>
+            <div class="about-content">
+              <h3>we are here to make humanity <strong>healthy </strong> ,our goal to make better or healthy society. health is a important part of life , so we should or will make it better together .<br> <br>We work for better, We are Good care + </h3>
+              <h4>This website helps you to find health solution and you can check your <strong>Blood pressure</strong> too.</h4>
+              <p> <em>we are upgrade and will upgrading... </em></p>
+            </div>
+          
+
+          </div>
+          <div class="about-img">  
+            <img src="img/me.png" alt="Author Yuvraj Sharma" />
+            <div class="little">
+              <h5>Hello, I am  Er. Yuvraj sharma.<br>Student of <strong> Computer Science engineering. </strong></h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <p>&#169;Copyright <br>Author: Yuvraj sharma<br>
+          <a href="mailto:sraj44899@gmail.com">Contact us</a></p>
+          <a href="#top">Back to top</a>
+      </footer>
+    <script src="text.js"></script>
+  </main>
+  </body>
+</html>

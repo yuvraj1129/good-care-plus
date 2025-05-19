@@ -1,0 +1,44 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/squats.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 80%;
+  border: 10px solid rgba(243, 182, 52, 0.849);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+.blog1 {
+  margin-bottom: 20px;
+}
+span {
+  color: white;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.paragraph {
+  border-left: 5px solid #2370a5;
+  padding-left: 5px;
+  color: orange;
+}
+h3 {
+  font-size: 2rem;
+  color: aqua;
+}
+h4 {
+  font-size: 1rem;
+  color: aliceblue;
+}
+.adtlist {
+  color: rgba(255, 153, 0, 0.822);
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
